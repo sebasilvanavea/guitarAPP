@@ -1,5 +1,6 @@
 import Foundation
 import AVFoundation
+import Combine
 
 /// Accurate metronome using AVAudioEngine with synthesised click sounds.
 class MetronomeEngine: ObservableObject {
